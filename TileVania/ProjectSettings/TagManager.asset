@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - Ladders
   - 
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Platforms
     uniqueID: 3181899851
+    locked: 0
+  - name: Ladders
+    uniqueID: 4111251169
     locked: 0
   - name: Player
     uniqueID: 3396807133
