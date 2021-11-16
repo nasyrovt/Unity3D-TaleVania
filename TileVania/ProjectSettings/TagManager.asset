@@ -13,10 +13,10 @@ TagManager:
   - UI
   - Ground
   - Ladders
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Background
+  - Bouncing
+  - Enemies
   - 
   - 
   - 
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: Ladders
     uniqueID: 4111251169
+    locked: 0
+  - name: Enemies
+    uniqueID: 2292167873
     locked: 0
   - name: Player
     uniqueID: 3396807133
