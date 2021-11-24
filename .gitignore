@@ -9,6 +9,7 @@
 /TileVania/[Bb]uilds/
 /TileVania/[Ll]ogs/
 /TileVania/[Mm]emoryCaptures/
+/TileVania/Assets/2D Platformer Tileset
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
