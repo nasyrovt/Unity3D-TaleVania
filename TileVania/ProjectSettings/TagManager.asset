@@ -20,7 +20,7 @@ TagManager:
   - Enemies
   - Hazards
   - Bullets
-  - 
+  - NPCs
   - 
   - 
   - 
@@ -45,7 +45,7 @@ TagManager:
   - name: Background
     uniqueID: 961756983
     locked: 0
-  - name: Water
+  - name: Fourniture
     uniqueID: 2552002053
     locked: 0
   - name: Platforms

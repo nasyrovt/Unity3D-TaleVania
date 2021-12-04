@@ -42,7 +42,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isAlive) { return; }
         moveInput = value.Get<Vector2>();
-        Debug.Log(moveInput);
     }
 
     void OnFire(InputValue value)
