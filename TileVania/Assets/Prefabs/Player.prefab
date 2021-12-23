@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 6733478428030199632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -17.84, y: -2.46, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_Children:
   - {fileID: 4872065111480007158}
   m_Father: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2cad65de366bf4048b2c3a9b7530af76, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -95,9 +95,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -898160163
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 5
-  m_Sprite: {fileID: 1857188551261513057, guid: 365fc1e0ab4532e4eb2daf06915412e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0e74fc99eff59d94c8df1191223fe4d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -190,9 +190,9 @@ MonoBehaviour:
   runSpeed: 7
   climbSpeed: 5
   jumpSpeed: 20
-  deathKick: {x: 10, y: 10}
-  bullet: {fileID: 0}
-  gun: {fileID: 0}
+  deathKick: {x: 0, y: 10}
+  bullet: {fileID: 8641575951604575296, guid: cfb287e14b4b7ad46ae169a2cf6d46f1, type: 3}
+  gun: {fileID: 4872065111480007158}
 --- !u!61 &5094538972452848927
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -202,7 +202,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 6733478428030199632}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 766914066b0928745aa183ed3d3097c5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -210,7 +210,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.75333333, y: 1.0533333}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
